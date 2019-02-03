@@ -1,4 +1,10 @@
-var five = 5
-print five
-var name = "tranphuquy19"
-print name
+first {
+         void main (string[] args) {
+             var x = 50
+             OutVar(x)
+         }
+
+         void OutVar (int param) {
+             echo param
+         }
+ }

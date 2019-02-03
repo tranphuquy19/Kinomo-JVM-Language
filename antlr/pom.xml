@@ -23,6 +23,10 @@
                         <goals>
                             <goal>antlr4</goal>
                         </goals>
+                        <configuration>
+                            <visitor>true</visitor>
+                            <listener>false</listener>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

@@ -11,21 +11,57 @@ mvn clean package
 
 2. Compile .ki file
 
+### Code ```~./KinomoExamples/first.ki```
+
+```bash
+first {
+        void main (string[] args) {
+            var x = 50
+            OutVar(x)
+        }
+
+        void OutVar (int param) {
+            echo param
+        }
+}
+```
+
 - File sau khi build sẽ có tên là ```compiler-1.0-SNAPSHOT-jar-with-dependencies.jar``` được Maven lưu tại địa chỉ ```~./compiler/target/``` để Compile KiCode sử dụng lệnh sau
 
 ```bash
 java -jar compiler/target/compiler-1.0-SNAPSHOT-jar-with-dependencies.jar  KinomoExamples/first.ki
 ```
-### Result
 
-```bash
-OK: You declared variable named 'five' with value of '5' at line '1'.
-OK: You instructed to print variable '0' which has value of '5' at line '2'.'
-OK: You declared variable named 'name' with value of '"tranphuquy19"' at line '3'.
-OK: You instructed to print variable '1' which has value of '"tranphuquy19"' at line '4'.'
-```
+
 ### Run
 
 ```bash
 java -cp . first
+```
+
+### Result
+
+```50```
+
+### Decompiled ```~~/first.ki```
+
+-   Thử xem file ```first.ki``` sau khi biên dịch sẽ như thế nào, ở đây mình sài trình dịch ngược mặc định của IntelliJ IDEA từ ".class" về ".java"
+
+```java
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+public class first {
+    public static void main(String[] var0) {
+        boolean var1 = true;
+        OutVar(50);
+    }
+
+    public static void OutVar(int var0) {
+        System.out.println(var0);
+    }
+}
+
 ```
