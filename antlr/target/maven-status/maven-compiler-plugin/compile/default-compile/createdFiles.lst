@@ -1,0 +1,8 @@
+tk\doraneko\antlr\KinomoBaseListener.class
+tk\doraneko\antlr\KinomoParser.class
+tk\doraneko\antlr\KinomoParser$PrintContext.class
+tk\doraneko\antlr\KinomoLexer.class
+tk\doraneko\antlr\KinomoListener.class
+tk\doraneko\antlr\KinomoParser$CompilationUnitContext.class
+tk\doraneko\antlr\KinomoParser$VariableContext.class
+tk\doraneko\antlr\KinomoParser$ValueContext.class

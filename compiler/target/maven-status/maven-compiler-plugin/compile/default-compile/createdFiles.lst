@@ -1,0 +1,10 @@
+tk\doraneko\bytecodegeneration\BytecodeGenerator.class
+tk\doraneko\ARGUMENT_ERRORS.class
+tk\doraneko\parsing\KinomoTreeWalkListener.class
+tk\doraneko\bytecodegeneration\instructions\VariableDeclaration.class
+tk\doraneko\Compiler.class
+tk\doraneko\parsing\SyntaxTreeTraverser.class
+tk\doraneko\bytecodegeneration\instructions\PrintVariable.class
+tk\doraneko\parsing\domain\Variable.class
+tk\doraneko\parsing\KinomoTreeWalkErrorListener.class
+tk\doraneko\bytecodegeneration\instructions\Instruction.class

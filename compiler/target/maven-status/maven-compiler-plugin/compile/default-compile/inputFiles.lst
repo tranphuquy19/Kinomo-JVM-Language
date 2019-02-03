@@ -1,0 +1,10 @@
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\bytecodegeneration\instructions\VariableDeclaration.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\parsing\domain\Variable.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\parsing\KinomoTreeWalkListener.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\bytecodegeneration\BytecodeGenerator.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\bytecodegeneration\instructions\Instruction.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\Compiler.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\parsing\SyntaxTreeTraverser.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\bytecodegeneration\instructions\PrintVariable.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\parsing\KinomoTreeWalkErrorListener.java
+C:\Users\Tran Phu Quy\IdeaProjects\Kinomo-JVM-Language\compiler\src\main\java\tk\doraneko\ARGUMENT_ERRORS.java
