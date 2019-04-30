@@ -1,6 +1,9 @@
 # Kinomo-JVM-Language
 Kinomo là ngôn ngữ lập trình chạy trên Java Virtual Machine
 
+Download Kinomo Compiler [Kinomo-Compiler-v1.0](https://github.com/tranphuquy19/Kinomo-JVM-Language/raw/master/Documentations/Kinomo-release-v1.0.jar)
+
+
 ## Compiling and running Kinomo scripts
 
 1. Build Kinomo Compiler ==> (.jar) sử dụng Maven script
