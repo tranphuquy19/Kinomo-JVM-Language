@@ -1,0 +1,14 @@
+ParameterLessConstructor {
+
+    ParameterLessConstructor() {
+        echo "Hey I am constructor without parameters"
+    }
+
+    start() {
+        doStuff()
+    }
+
+    doStuff {
+        echo "doing stuff on ParameterLessConstructor object"
+    }
+}

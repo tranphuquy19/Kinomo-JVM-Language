@@ -1,0 +1,18 @@
+
+								SumCalculator {
+									start() {
+										var expected = 8
+										var actual = sum(3,5)
+										if( actual == expected ) {
+											echo "test passed"
+										} else {
+											echo "test failed"
+										}
+									}
+
+
+								int sum (int x ,int y) {
+									x+y
+								}
+							}
+							

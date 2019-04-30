@@ -3,9 +3,9 @@ package tk.doraneko.validation;
 public enum ARGUMENT_ERRORS {
     NONE (""),
     NO_FILE ("Specify files for compilation"),
-    BAD_FILE_EXTENSION ("File has to end with .enk extension");
+    BAD_FILE_EXTENSION ("File has to end with .ki extension");
 
-    private String message;
+    private final String message;
 
     ARGUMENT_ERRORS(String message) {
         this.message = message;

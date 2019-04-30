@@ -1,0 +1,15 @@
+
+							DefaultParamTest {
+								start() {
+									greet("jvm","Kinomo")
+									greet("tranphuquy")
+								}
+
+								greet (string name,string favouriteLanguage="java") {
+									echo "Hello my name is "
+									echo name
+									echo "and my favourite langugage is "
+									echo favouriteLanguage
+								}
+							}
+    						

@@ -1,10 +1,10 @@
 package tk.doraneko.exception;
 
-import tk.doraneko.antlr.domain.expression.FunctionCall;
-import tk.doraneko.antlr.domain.scope.Scope;
+import tk.doraneko.domain.node.expression.FunctionCall;
+import tk.doraneko.domain.scope.Scope;
 
 public class CalledFunctionDoesNotExistException extends CompilationException {
-    FunctionCall functionCall;
+    private final FunctionCall functionCall;
 
     public CalledFunctionDoesNotExistException(FunctionCall functionCall) {
         this.functionCall = functionCall;

@@ -6,5 +6,7 @@ first {
 
          void OutVar (int param) {
              echo param
+             echo param
          }
+
  }

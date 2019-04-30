@@ -1,0 +1,13 @@
+
+							Loops {
+								start() {
+									for i from 3 to 1 {
+										metod(i)
+									}
+								}
+
+								metod(int x) {
+									echo x
+								}
+							}
+							

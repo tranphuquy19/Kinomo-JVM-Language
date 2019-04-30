@@ -1,0 +1,6 @@
+HelloWorld {
+
+    start {
+        echo "hello world!"
+    }
+}

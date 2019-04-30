@@ -1,0 +1,12 @@
+
+							Fields {
+
+								int field
+
+								start {
+									field = 5
+									echo field
+								}
+
+							}
+							

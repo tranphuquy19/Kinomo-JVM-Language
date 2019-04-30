@@ -1,12 +1,12 @@
 package tk.doraneko.exception;
 
-import tk.doraneko.antlr.KinomoParser;
-import tk.doraneko.antlr.domain.scope.FunctionSignature;
+import tk.doraneko.antlr.KinomoParser.ExpressionContext;
+import tk.doraneko.domain.scope.FunctionSignature;
 
 import java.util.List;
 
 public class BadArgumentsSize extends RuntimeException {
-    public BadArgumentsSize(FunctionSignature function, List<KinomoParser.ExpressionContext> calledParameters) {
+    public BadArgumentsSize(FunctionSignature function, List<ExpressionContext> calledParameters) {
         super("Bad arguments amount");
     }
 }

@@ -1,0 +1,12 @@
+Loops {
+    start() {
+        echo "incrementing from 1 to 10"
+        for x from 1 to 10 {
+            echo x
+        }
+        echo "decrementing from 10 to 1"
+        for x from 10 to 1 {
+            echo x
+        }
+    }
+}
