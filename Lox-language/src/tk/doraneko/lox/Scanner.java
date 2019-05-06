@@ -175,6 +175,7 @@ class Scanner {
 
     // Trim the surrounding quotes.
     String value = source.substring(start + 1, current - 1);
+    //System.out.println(start+"..."+current);
     addToken(STRING, value);
   }
 //< string

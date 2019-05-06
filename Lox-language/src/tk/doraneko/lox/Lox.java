@@ -21,7 +21,6 @@ public class Lox {
 //< Evaluating Expressions had-runtime-error-field
   public static void main(String[] args) throws IOException {
     if (args.length > 1) {
-      System.out.println("Usage: jlox [script]");
       System.exit(64); // [64]
     } else if (args.length == 1) {
       runFile(args[0]);
@@ -61,13 +60,13 @@ public class Lox {
   private static void run(String source) {
     Scanner scanner = new Scanner(source);
     List<Token> tokens = scanner.scanTokens();
-/* Scanning run < Parsing Expressions print-ast
+// Scanning run < Parsing Expressions print-ast
 
-    // For now, just print the tokens.
-    for (Token token : tokens) {
-      System.out.println(token);
-    }
-*/
+    // In tokens
+//    for (Token token : tokens) {
+//      System.out.println(token);
+//    }
+//    
 //> Parsing Expressions print-ast
     Parser parser = new Parser(tokens);
 /* Parsing Expressions print-ast < Statements and State parse-statements

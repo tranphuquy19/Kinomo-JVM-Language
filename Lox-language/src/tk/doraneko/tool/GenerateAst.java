@@ -97,7 +97,7 @@ public class GenerateAst {
 //> omit
     writer.println("//> Appendix II " + baseName.toLowerCase());
 //< omit
-    writer.println("package com.craftinginterpreters.lox;");
+    writer.println("package tk.doraneko.lox;");
     writer.println();
     writer.println("import java.util.List;");
     writer.println();
