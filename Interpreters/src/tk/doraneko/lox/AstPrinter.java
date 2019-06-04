@@ -1,4 +1,4 @@
-//> Representing Code ast-printer
+//> ast-printer
 package tk.doraneko.lox;
 
 // Creates an unambiguous, if ugly, string representation of AST nodes.
@@ -250,16 +250,17 @@ class AstPrinter implements Expr.Visitor<String>, Stmt.Visitor<String> {
 //< omit
 /* Representing Code printer-main < Representing Code omit*/
 
-//  public static void main(String[] args) {
-//    Expr expression = new Expr.Binary(
+  public static void main(String[] args) {
+    Expr expression = new Expr.Binary(
+    		new Expr.Literal(69),
 //        new Expr.Unary(
 //            new Token(TokenType.MINUS, "-", null, 1),
 //            new Expr.Literal(123)),
-//        new Token(TokenType.STAR, "*", null, 1),
-//        new Expr.Grouping(
-//            new Expr.Literal(45.67)));
-//
-//    System.out.println(new AstPrinter().print(expression));
-//  }
+        new Token(TokenType.STAR, "*", null, 1),
+        new Expr.Grouping(
+            new Expr.Literal(45.67)));
+
+    System.out.println(new AstPrinter().print(expression));
+  }
 /**/
 }

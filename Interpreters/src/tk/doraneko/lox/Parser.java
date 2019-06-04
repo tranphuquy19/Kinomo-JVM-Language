@@ -529,7 +529,7 @@ class Parser {
   private Token peek() {
     return tokens.get(current);
   }
-
+//Nhìn lại token vừa quét
   private Token previous() {
     return tokens.get(current - 1);
   }
