@@ -12,13 +12,12 @@ public class Lox {
 //> Evaluating Expressions interpreter-instance
   private static final Interpreter interpreter = new Interpreter();
 //< Evaluating Expressions interpreter-instance
-//> had-error, throw errors of Lox class
+//> ném các lỗi của compiler
   static boolean hadError = false;
 //< had-error
-//> Evaluating Expressions had-runtime-error-field
+//> expressions hadRuntimeError
   static boolean hadRuntimeError = false;
 
-//< Evaluating Expressions had-runtime-error-field
   public static void main(String[] args) throws IOException {
     if (args.length > 1) {
       System.exit(64); // [64]
@@ -50,12 +49,10 @@ public class Lox {
     for (;;) { // [repl]
       System.out.print("> ");
       run(reader.readLine());
-//> reset-had-error
+//> reset Error
       hadError = false;
-//< reset-had-error
     }
   }
-//< prompt
 //> run
   private static void run(String source) {
     Scanner scanner = new Scanner(source);
